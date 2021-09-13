@@ -1,0 +1,25 @@
+###
+GET http://localhost:9000/
+
+###
+POST http://localhost:9000/user_register?username=fadliselaz&password=1qazxq31&status=6
+
+
+###
+POST http://localhost:9000/user_register
+Content-Type: application/json
+
+{
+    "username" : "fadliselaz",
+    "password" : "1qazxsw2"
+}
+
+
+###
+POST http://localhost:9000/user_login
+Content-Type: application/json
+
+{
+    "username" : "fadliselaz",
+    "password" : "1qazxsw2"
+}
